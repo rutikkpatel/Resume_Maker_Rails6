@@ -265,8 +265,6 @@ ActiveRecord::Schema.define(version: 2022_07_22_070548) do
     t.string "linkedin_username"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.string "slug"
-    t.index ["slug"], name: "index_resume2s_on_slug", unique: true
   end
 
   create_table "resume3s", force: :cascade do |t|
